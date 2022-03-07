@@ -26,3 +26,24 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
+
+img {
+	max-width: 100%;
+}
+
+button {
+	border: none;
+	color: #fff;
+	padding: 1rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	outline: none;
+	flex: 1;
+	cursor: pointer;
+}
+
+.sr-only {
+	display: none;
+}
